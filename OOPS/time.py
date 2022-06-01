@@ -27,7 +27,7 @@ class Time():
        print("Hours =",self.hours)
 
     def displayMinutes(self):
-       print("Minutes =",self.minutes)
+       print("Minutes =",(self.hours * 60)+self.minutes)
 
 a = Time(2,10)
 b = Time(3,60)
