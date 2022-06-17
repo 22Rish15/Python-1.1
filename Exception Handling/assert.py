@@ -1,3 +1,2 @@
 import sys
-assert("linux" in sys.platform),"This cod
-e runs on Linux only."
+assert("linux" in sys.platform),"This code runs on Linux only."
