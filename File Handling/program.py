@@ -4,8 +4,8 @@
 
 fh=open("python.txt","r")
 fw=open("python1.txt","w")                                                  
-rec=fh.read()
-for a in rec:
+re=fh.read()
+for a in re:
     if (a.isdigit() != True):
         print(a,end=' ')
         fw.write(a)

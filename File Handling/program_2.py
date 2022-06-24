@@ -2,7 +2,7 @@
 
 def uppercount():
     upper=0
-    f1=open("python.txt",'r')
+    f1=open("PYTHON.txt",'r')
     line=f1.read()
     for i in line:
         if (i.isupper() == True):
