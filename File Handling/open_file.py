@@ -1,6 +1,7 @@
 # file opening example in Python
 
-fo = open("ABC.txt", "w")
-print("File name : ",fo.name)
-print("Mode of opening : ",fo.mode)
-print("Is closed : ",fo.closed)
+with open("ABC.txt", "w") as fo:
+    fo.close()
+    print("File name : ",fo.name)
+    print("Mode of opening : ",fo.mode)
+    print("Is closed : ",fo.closed)
