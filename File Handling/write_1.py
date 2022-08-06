@@ -1,2 +1,3 @@
 with open ("ABCD.txt","xt") as f :
-    a = f.write("Hello Google")
+    a = f.write("Hello Google...")
+    print(l)

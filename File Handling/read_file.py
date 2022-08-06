@@ -9,5 +9,5 @@ with open("ABC.txt") as f:
 
 with open("ABC.txt") as f:
     for line in f:
-        print(line, end=" ")
+        print(line)
         
