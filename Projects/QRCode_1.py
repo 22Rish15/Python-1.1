@@ -8,10 +8,10 @@ qr = qrcode.QRCode(
     border=2,
 )
 
-qr.add_data("khandelwalrishi36@gmail.com ✉")
+qr.add_data("https://github.com/22Rish15?tab=repositories")
 
 qr.make(fit=True)
 
 img = qr.make_image(fill_color = "White",back_color = "Black")
 
-img.save("Email.png")
+img.save("GitHub.png")
