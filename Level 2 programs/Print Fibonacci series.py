@@ -9,9 +9,11 @@ n = int(input("Enter number upto which you want to print fibonacci series : "))
 a = 0
 b = 1
 c = 0
-
+l = []
 while c <= n:
-    print(c)
+    #print(c)
+    l.append(c)
     a = b
     b = c
     c = a + b
+print(l)
