@@ -1,4 +1,4 @@
 def fake():
-    print("just checking something !")
+    print("just checking something !!")
     
 fake()
