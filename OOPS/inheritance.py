@@ -17,6 +17,7 @@ class Penguin(Bird):               #Child class
 
     def whoisthis(self):
         print("Penguin")
+        super().whoisthis()
     
     def run(self):
         print("Run faster")
