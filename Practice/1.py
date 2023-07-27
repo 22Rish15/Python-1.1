@@ -1,0 +1,17 @@
+str = "my namE is Rishi.."
+# print(str.split(" "))
+# print(str.upper())
+# print(str.lower())
+# print(str.count("i"))
+# print(str.strip("."))
+# print(str.replace("Rishi","Rishi_khandelwal"))
+# print(str.capitalize())
+# print(str.endswith(".."))
+# print(str.endswith("namE",1,7))
+# print(str.endswith("is",1,10))
+# print(str.find("is"))
+# print(str.find("isi"))
+# print(str.index("s"))
+
+print("Good night, {}".format(str))
+print(f'Good morning, {str}')
