@@ -1,18 +1,20 @@
-questions = [["1. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["2. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["3. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["4. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["5. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["6. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["7. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["8. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["9. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["10. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["11. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["12. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["13. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["14. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
-             ["15. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"]]
+questions = [
+    ["1. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["2. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["3. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["4. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["5. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["6. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["7. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["8. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["9. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["10. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["11. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["12. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["13. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["14. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"],
+    ["15. Capital of India ?","A: Lucknow","B: Delhi","C: Agra","D: None of These","B"]
+    ]
 
 amt = [1000,3000,5000,10000,20000,35000,50000,100000,125000,150000,200000,400000,600000,750000,900000,1000000]
 
@@ -26,7 +28,7 @@ for i in range(len(questions)):
     print(question[1],"\t\t",question[2])
     print(question[3],"\t\t",question[4])
     
-    ch = input("Choose your Answer or Q for quit: ")
+    ch = input("Choose your Answer OR Press Q for quit: ")
     
     if ch == 'Q':
         money = amt[i-1]
